@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Universali 5</title>
+</head>
+<body>
+
+    <section class="sub-header">
+ <nav>
+    <a href="course.html"><img src="imaged/img-13.png" style="width: 20%;" ></a>
+   <div class="nav-links" id="navLinks">
+    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+    <ul>
+        <li><a href="index.html">მთავარი</a></li>
+        <li><a href="about.html">ჩვენს შესახებ</a></li>
+        <li><a href="course.html">ფორუმი</a></li>
+        <li><a href="blog.html">ბლოგი</a></li>
+        <li><a href="contact.html">კონტაქტი</a></li>
+
+    </ul>
+   </div>
+   <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+ </nav>
+<h1>დაგვიკავშირდით</h1>
+    </section>
+
+    <!-- contact us-->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11899.044002386383!2d41.81228034773756!3d41.79036413871215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405d7a76fca919ef%3A0x21b91148a0d1e6dc!2z4YOW4YOU4YOT4YOQIOGDmeGDleGDmOGDoOGDmOGDmeGDlA!5e0!3m2!1ska!2sge!4v1708674484828!5m2!1ska!2sge" 
+        width="600" height="450" style="border:0;" allowfullscreen=""
+         loading="lazy"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                <i class="fa-sharp fa-solid fa-house-user"></i>
+           
+                <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>საქართველო, ქობულეთი, კვირიკე, Ge.</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>
+                    <h5>+995 599 333 000</h5>
+                    <p>ორშაბათიდამ შაბათამდე 10:00 საათიდან 18:00 საათამდე.</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>roinbejanidze2022@gmail.com</h5>
+                    <p>გამოგვიგზავნეთ თქვენი შეკითხვა.</p>
+                </span>
+            
+            </div>
+            </div>
+            <div class="contact-col">
+<form action="form-heandler.php" method="post">
+    <input type="text" name="name" placeholder="Enter your name" required>
+    <input type="email" name="email" placeholder="Enter email name" required>
+    <input type="text" name="subject" placeholder="Enter message subject" required>
+    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+    <button type="submit" class="hero-btn red-btn">Send Message</button>
+</form>
+</div>
+        </div>
+
+    </section>
+  
+
+
+
+
+
+<!-- footer -->
+
+  <section class="footer">
+   <h4>ჩვენს შესახებ</h4>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quisquam voluptas molestias. Ad id,
+     ab, debitis ea impedit, laborum similique eaque hic provident consequatur <br>facere pariatur fugit praesentium 
+     dignissimos deleniti?</p>
+<div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-square-instagram"></i> 
+    <i class="fa-brands fa-linkedin"></i>
+</div>
+<p>დამზადებულია <i class="fa-solid fa-heart"></i> როინ ბეჟანიძის მიერ</p>
+  </section>
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+        
+          </script>
+
+</body>
+</html>
